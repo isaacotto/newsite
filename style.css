@@ -1,0 +1,44 @@
+body {
+  background-color: #333333;
+  color: #BBBBBB;
+}
+/* keep in mind that the header ASCII art is 86 characters long */
+/* and approximately 630 pixels wide (at least on my setup?) */
+.center {
+  border: 5px solid;
+  margin: auto;
+  width: 630px;
+  padding: 16px;
+}
+
+div {
+  font-family: monospace;
+  font-size: 12px;
+  text-align: left;
+  /*text-align: left;*/
+  hyphens: auto;
+}
+
+.piece {
+  margin-bottom: 1cm;
+  padding-left: 3em;
+  text-indent: -3em;
+}
+
+.par1 {
+  margin-bottom: 1cm;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.h1 {
+    padding: 5px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 12px; 
+    font-style: italic;
+}
+
+.pre1 {
+    margin-bottom: 20px
+}
