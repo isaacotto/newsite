@@ -56,5 +56,9 @@ div {
 }
 
 .pre1 {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+}
+
+.pre2 {
+    text-align: center;
 }
