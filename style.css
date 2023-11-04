@@ -36,13 +36,13 @@ div {
 }
 
 .piece {
-  margin-bottom: 1cm;
+  margin-bottom: .5cm;
   padding-left: 3em;
   text-indent: -3em;
 }
 
 .par1 {
-  margin-bottom: 1cm;
+  margin-bottom: .5cm;
   padding-left: 1.5em;
   text-indent: -1.5em;
 }
