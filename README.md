@@ -12,5 +12,6 @@ This is my little working document where I'm sandboxing a new website that actua
 3. Figure out the best solution for hosting audio for streaming.
 4. Update with new compositions from concert (scores/audio)
 
-(Maybe I could do something fancy like having two independently-scrolling columns---one of which is a quasi-blog in which to put little updates...)
+Maybe I could do something fancy like having two independently-scrolling columns---one of which is a quasi-blog in which to put little updates...
 
+There's a solution to this given [here](https://jsfiddle.net/wQ6WQ/1/) which was originally linked from [here](https://stackoverflow.com/questions/15453410/independent-column-scroll-in-html-page).
