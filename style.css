@@ -1,6 +1,22 @@
 body {
   background-color: #333333;
   color: #BBBBBB;
+  a:link {
+      color: pink;
+      text-decoration: none;
+  }
+  a:visited {
+      color: lightblue;
+      text-decoration: none;
+  }
+  a:hover {
+      color: white;
+      text-decoration: underline;
+  }
+  a:active{
+      color: red;
+      text-decoration: underline;
+  }
 }
 /* keep in mind that the header ASCII art is 86 characters long */
 /* and approximately 630 pixels wide (at least on my setup?) */
