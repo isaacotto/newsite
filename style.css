@@ -22,10 +22,11 @@ body {
 /* and approximately 630 pixels wide (at least on my setup?) */
 .center {
   border: 5px solid;
-  margin: auto;
+  margin: auto; /* this is what allows centering of main column */
   width: 630px;
-  padding: 16px;
+  padding: 25px;
 }
+
 
 div {
   font-family: monospace;
