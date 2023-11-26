@@ -1,3 +1,9 @@
+/* GLOBAL SETTINGS */
+@font-face {
+    font-family: FiraCode;
+    src: url('FiraCodeNerdFont-Medium.ttf');
+    }
+
 body {
   background-color: #333333;
   color: #BBBBBB;
@@ -17,29 +23,79 @@ body {
       color: red;
       text-decoration: underline;
   }
+
+  hr {
+    width: 50%;
+    margin-bottom: 20px;
+    }
+
+    .short {
+        width: 25%;
+    }
 }
+
 /* keep in mind that the header ASCII art is 86 characters long */
 /* and approximately 630 pixels wide (at least on my setup?) */
 .center {
-  border: 5px solid;
+  border: 3mm ridge rgba(190, 190, 255, .6);/* 5px solid; */
   margin: auto; /* this is what allows centering of main column */
   width: 630px;
   padding: 25px;
 }
 
-
+/* DIVISION STYLES */
 div {
-  font-family: monospace;
+  font-family: FiraCode;
   font-size: 12px;
   text-align: left;
-  /*text-align: left;*/
+  /*text-align: justify;*/
   hyphens: auto;
+  text-justify: inter-word;
 }
 
+.inleft {
+    padding: 30px; /* additional padding */
+}
+
+#wrapper {
+    width=550px;
+    overflow:hidden;
+    align: center;
+}
+
+#first {
+    width: 325px;
+    float:left;
+}
+
+#second {
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.linkbar {
+    text-align: center;
+    padding: 5px;
+}
+
+/* PRE STYLES */
+.pre1 {
+    margin-bottom: 20px;
+}
+
+.pre2 {
+    text-align: center;
+}
+
+
+/* PARAGRAPH STYLES */
 .piece {
   margin-bottom: .5cm;
   padding-left: 3em;
   text-indent: -3em;
+  width: 250px;
+  hyphens: auto;
 }
 
 .par1 {
@@ -53,13 +109,7 @@ div {
     text-align: center;
     color: #DDDDDD;
     font-size: 12px; 
-    font-style: italic;
+    font-style: bold;
 }
 
-.pre1 {
-    margin-bottom: 20px;
-}
 
-.pre2 {
-    text-align: center;
-}
