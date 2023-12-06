@@ -11,7 +11,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
     <!----------->
-</head>
+    <style>
+    #guestbook-form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #guestbook-entries {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .guestbook-entry {
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    </style>
+    </head>
+
 
 <body>
     <div class="center">
@@ -27,8 +43,42 @@
 ██    ██ ██    ██ ██           ██    ██    
  ██████   ██████  ███████ ███████    ██    
 </pre>
-    <p class ="par1">
-    This is a test of some text on the guestbook page. Here is where custom code for a guestbook goes. It should somehow convert everything to plain text and provide space for a user's name, contact, and comment. Maybe with a character limit?
-    </p>
+
+  <div id="guestbook-form">
+    <h2>Add Your Entry</h2>
+    <form id="new-entry-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="comment">Comment:</label><br>
+      <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+    <div id="guestbook-entries">
+        <h2>Guestbook Entries</h2>
+        <div id="entries-list"></div>
+    </div>
+    <script>
+    // Function to handle form submission and display entries
+    document.getElementById('new-entry-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get form values
+      var name = document.getElementById('name').value;
+      var comment = document.getElementById('comment').value;
+
+      // Create new entry
+      var entry = document.createElement('div');
+      entry.className = 'guestbook-entry';
+      entry.innerHTML = '<strong>' + name + ':</strong> ' + comment;
+
+      // Append entry to the list
+      document.getElementById('entries-list').appendChild(entry);
+
+      // Clear form fields
+      document.getElementById('name').value = '';
+      document.getElementById('comment').value = '';
+    });
+  </script>
     </div>
 </body>

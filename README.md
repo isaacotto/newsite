@@ -4,6 +4,12 @@ This is my little working document where I'm sandboxing a new website that actua
 
 ## To do: ##
 
+1. Find code for a guestbook (actually probably low priority)
+2. Filter content into relevant sub-pages
+3. Find good embedded players (bandcamp, youtube?)
+4. Host dissertation on-site?  
+
+--------------------
 1. Figure out the file structure.
     - One folder for all scores should be fine.
     - It seems like a bad idea to host audio locally but I guess I could.
