@@ -7,31 +7,14 @@
 body {
   background-color: #333333;
   color: #BBBBBB;
-  a:link {
-      color: pink;
-      text-decoration: none;
-  }
-  a:visited {
-      color: lightblue;
-      text-decoration: none;
-  }
-  a:hover {
-      color: white;
-      text-decoration: underline;
-  }
-  a:active{
-      color: red;
-      text-decoration: underline;
-  }
 
-  hr {
-    width: 50%;
-    margin-bottom: 20px;
-    }
+  a:link { color: pink; text-decoration: none; }
+  a:visited { color: lightblue; text-decoration: none; }
+  a:hover { color: white; text-decoration: underline; }
+  a:active{ color: red; text-decoration: underline; }
 
-    .short {
-        width: 25%;
-    }
+  hr { width: 50%; margin-bottom: 20px; }
+.short { width: 25%; }
 }
 
 /* keep in mind that the header ASCII art is 86 characters long */
@@ -40,7 +23,7 @@ body {
   border: 3mm ridge rgba(190, 190, 255, .6);/* 5px solid; */
   margin: auto; /* this is what allows centering of main column */
   width: 630px;
-  padding: 25px;
+  padding: 10px;
 }
 
 /* DIVISION STYLES */
@@ -56,7 +39,7 @@ div {
     text-align: center;
         img {
             border: 5px solid #555;
-            width: 450px;
+            width: 500px;
             height: auto
         }
 }
@@ -71,16 +54,9 @@ div {
     align: center;
 }
 
-#first {
-    width: 325px;
-    float:left;
-}
+#first { width: 325px; float:left; }
 
-#second {
-    /* border: 1px solid blue; */
-    overflow: hidden;
-    vertical-align: top;
-}
+#second { overflow: hidden; vertical-align: top; }
 
 .linkbar {
     text-align: center;
