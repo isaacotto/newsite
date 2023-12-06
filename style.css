@@ -52,6 +52,14 @@ div {
   hyphens: auto;
   text-justify: inter-word;
 }
+.centerimg {
+    text-align: center;
+        img {
+            border: 5px solid #555;
+            width: 450px;
+            height: auto
+        }
+}
 
 .inleft {
     padding: 30px; /* additional padding */
@@ -101,6 +109,13 @@ div {
 .par1 {
   margin-bottom: .5cm;
   padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.par2 {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  padding-right: 3em;
   text-indent: -1.5em;
 }
 
