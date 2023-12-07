@@ -20,7 +20,7 @@ body {
 /* keep in mind that the header ASCII art is 86 characters long */
 /* and approximately 630 pixels wide (at least on my setup?) */
 .center {
-  border: 3mm ridge rgba(190, 190, 255, .6);/* 5px solid; */
+  border: 3mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
   margin: auto; /* this is what allows centering of main column */
   width: 630px;
   padding: 10px;
@@ -38,8 +38,8 @@ div {
 .centerimg {
     text-align: center;
         img {
-            border: 5px solid #555;
-            width: 500px;
+            border: 3px solid rgba(190, 190, 255, .5);
+            width: 400px;
             height: auto
         }
 }
@@ -52,6 +52,7 @@ div {
     width=550px;
     overflow:hidden;
     align: center;
+    padding: 10px;
 }
 
 #first { width: 325px; float:left; }
@@ -103,4 +104,6 @@ div {
     font-style: bold;
 }
 
-
+.centered {
+    text-align: center;
+}
