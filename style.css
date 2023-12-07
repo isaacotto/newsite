@@ -19,8 +19,8 @@ body {
 
 /* keep in mind that the header ASCII art is 86 characters long */
 /* and approximately 630 pixels wide (at least on my setup?) */
-.center {
-  border: 3mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
+.center { /* this is the big central box */
+  border: 2.5mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
   margin: auto; /* this is what allows centering of main column */
   width: 630px;
   padding: 10px;
@@ -67,6 +67,7 @@ div {
 /* PRE STYLES */
 .pre1 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .pre2 {
@@ -81,6 +82,7 @@ div {
   text-indent: -3em;
   width: 250px;
   hyphens: auto;
+  text-align: justify;
 }
 
 .par1 {
