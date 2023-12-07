@@ -85,6 +85,14 @@ div {
   text-align: justify;
 }
 
+.longpiece {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  width: 400px;
+  hyphens: auto;
+  text-align: justify;
+}
 .par1 {
   margin-bottom: .5cm;
   padding-left: 1.5em;
@@ -95,9 +103,18 @@ div {
   margin-bottom: .5cm;
   padding-left: 3em;
   padding-right: 3em;
-  text-indent: -1.5em;
+  text-indent: -2em;
   text-align: justify;
 }
+
+.par3 {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  hyphens: auto;
+  text-align: justify;
+}
+
 
 .h1 {
     padding: 5px;
